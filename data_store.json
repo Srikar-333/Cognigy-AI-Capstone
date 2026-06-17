@@ -1,0 +1,181 @@
+{
+  "customers": [
+    {
+      "id": "CUST001",
+      "name": "John Smith",
+      "phone_number": "8333077740",
+      "license_plate": "ABC1234",
+      "postal_code": "90310",
+      "email": "john@email.com",
+      "vehicle": {
+        "plate": "ABC1234",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 2022
+      }
+    },
+    {
+      "id": "CUST002",
+      "name": "Sarah Johnson",
+      "phone_number": "8333077741",
+      "license_plate": "XYZ5678",
+      "postal_code": "10501",
+      "email": "sarah@email.com",
+      "vehicle": {
+        "plate": "XYZ5678",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2023
+      }
+    },
+    {
+      "id": "CUST003",
+      "name": "Raj Patel",
+      "phone_number": "8333077742",
+      "license_plate": "DEF9012",
+      "postal_code": "63601",
+      "email": "raj@email.com",
+      "vehicle": {
+        "plate": "DEF9012",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2021
+      }
+    },
+    {
+      "id": "CUST004",
+      "name": "Maria Garcia",
+      "phone_number": "8333077743",
+      "license_plate": "GHI3456",
+      "postal_code": "35301",
+      "email": "maria@email.com",
+      "vehicle": {
+        "plate": "GHI3456",
+        "make": "BMW",
+        "model": "X5",
+        "year": 2024
+      }
+    },
+    {
+      "id": "CUST005",
+      "name": "David Lee",
+      "phone_number": "8333077744",
+      "license_plate": "JKL7890",
+      "postal_code": "94108",
+      "email": "david@email.com",
+      "vehicle": {
+        "plate": "JKL7890",
+        "make": "Tesla",
+        "model": "Model 3",
+        "year": 2025
+      }
+    }
+  ],
+  "appointments": [
+    {
+      "id": "APT001",
+      "customer_id": "CUST001",
+      "license_plate": "ABC1234",
+      "service_type": "oil_change",
+      "location": "Downtown Service Center",
+      "date_time": "2026-05-01T10:00:00",
+      "status": "confirmed",
+      "technician": "Mike Torres",
+      "duration": "45 minutes"
+    },
+    {
+      "id": "APT002",
+      "customer_id": "CUST002",
+      "license_plate": "XYZ5678",
+      "service_type": "brake_inspection",
+      "location": "Westside Auto Hub",
+      "date_time": "2026-05-03T14:00:00",
+      "status": "confirmed",
+      "technician": "Lisa Chen",
+      "duration": "60 minutes"
+    },
+    {
+      "id": "APT003",
+      "customer_id": "CUST003",
+      "license_plate": "DEF9012",
+      "service_type": "full_service",
+      "location": "North Park Auto Care",
+      "date_time": "2026-05-05T09:00:00",
+      "status": "confirmed",
+      "technician": "David Kim",
+      "duration": "120 minutes"
+    },
+    {
+      "id": "APT4D816B",
+      "customer_id": "CUST001",
+      "license_plate": "ABC1234",
+      "service_type": "oil_change",
+      "location": "Downtown Service Center",
+      "date_time": "2026-05-02T10:00:00",
+      "status": "cancelled",
+      "technician": "James Wilson",
+      "duration": "45 min"
+    },
+    {
+      "id": "APT774735",
+      "customer_id": "CUST001",
+      "license_plate": "ABC1234",
+      "service_type": "full_service",
+      "location": "Downtown Service Center",
+      "date_time": "2026-05-02T10:00:00",
+      "status": "rescheduled",
+      "technician": "Mike Torres",
+      "duration": "120 min"
+    }
+  ],
+  "inspections": [
+    {
+      "id": "INSE058EF",
+      "customer_id": "CUST001",
+      "license_plate": "ABC1234",
+      "inspection_center": "City Vehicle Inspection Hub",
+      "date_time": "2026-06-12T10:00:00",
+      "type": "government_mandated_inspection",
+      "status": "rescheduled",
+      "required_documents": [
+        "Vehicle Registration Certificate",
+        "Insurance Proof",
+        "Emission Test Certificate",
+        "Photo ID"
+      ],
+      "duration": "60 minutes"
+    },
+    {
+      "id": "INS9B81B9",
+      "customer_id": "CUST001",
+      "license_plate": "ABC1234",
+      "inspection_center": "City Vehicle Inspection Hub",
+      "date_time": "2026-06-22T10:00:00",
+      "type": "government_mandated_inspection",
+      "status": "rescheduled",
+      "required_documents": [
+        "Vehicle Registration Certificate",
+        "Insurance Proof",
+        "Emission Test Certificate",
+        "Photo ID"
+      ],
+      "duration": "60 minutes"
+    },
+    {
+      "id": "INSF7C438",
+      "customer_id": "CUST001",
+      "license_plate": "ABC1234",
+      "inspection_center": "City Vehicle Inspection Hub",
+      "date_time": "2026-06-23T10:00:00",
+      "type": "government_mandated_inspection",
+      "status": "rescheduled",
+      "required_documents": [
+        "Vehicle Registration Certificate",
+        "Insurance Proof",
+        "Emission Test Certificate",
+        "Photo ID"
+      ],
+      "duration": "60 minutes"
+    }
+  ]
+}
