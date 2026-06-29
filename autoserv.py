@@ -427,6 +427,18 @@ def home():
         ]
     })
 
+from flask import jsonify
+from datetime import datetime
+
+@app.route("/health", methods=["GET"])
+def health_check():
+    return jsonify({
+        "status": "ok",
+        "service": "autoserv-api",
+        "timestamp": datetime.utcnow().isoformat() + "Z",
+        "version": "1.0.0"
+    }), 200
+
 
 # =============================================
 # START SERVER
