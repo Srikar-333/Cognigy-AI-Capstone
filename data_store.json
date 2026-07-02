@@ -123,7 +123,7 @@
       "service_type": "full_service",
       "location": "Downtown Service Center",
       "date_time": "2026-05-02T10:00:00",
-      "status": "rescheduled",
+      "status": "confirmed",
       "technician": "Mike Torres",
       "duration": "120 min"
     }
@@ -136,7 +136,7 @@
       "inspection_center": "City Vehicle Inspection Hub",
       "date_time": "2026-06-12T10:00:00",
       "type": "government_mandated_inspection",
-      "status": "rescheduled",
+      "status": "confirmed",
       "required_documents": [
         "Vehicle Registration Certificate",
         "Insurance Proof",
@@ -152,7 +152,7 @@
       "inspection_center": "City Vehicle Inspection Hub",
       "date_time": "2026-06-22T10:00:00",
       "type": "government_mandated_inspection",
-      "status": "rescheduled",
+      "status": "confirmed",
       "required_documents": [
         "Vehicle Registration Certificate",
         "Insurance Proof",
@@ -168,7 +168,7 @@
       "inspection_center": "City Vehicle Inspection Hub",
       "date_time": "2026-06-23T10:00:00",
       "type": "government_mandated_inspection",
-      "status": "rescheduled",
+      "status": "confirmed",
       "required_documents": [
         "Vehicle Registration Certificate",
         "Insurance Proof",
